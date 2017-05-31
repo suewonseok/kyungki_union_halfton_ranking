@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+ @import url(https://fonts.googleapis.com/earlyaccess/nanumgothic.css); 
+*{
+	font-family: 'Nanum Gothic';
+	margin: 0;
+	padding: 0;
+ }
+
+/*contents*/
+#section0{
+	color:white;
+	text-align: center;
+	font-size: 50;
+	
+}
+#dpTime{
+	font-size:20pt; 
+	font-weight: bold;
+}
+.nowtime{
+	font-size:20pt;
+}
+.page{
+	margin-top:50px;
+}
+.card-title{
+	text-align: center;
+}
+.card-text{
+	text-align: center;
+}
+.card-img-top{
+    width:100%; 
+    height:100%;
+}
+.btn-outline-primary{
+	display:table; margin-left: auto; margin-right: auto;
+}
+
+/*footer*/
+.bodyfooter{
+    position:relative;
+    bottom:0;
+    width:100%;
+    background:#FFC600;
+    padding: 100px;
+    font-size: 12px;
+    color:black;
+    text-align: center;
+}
+/*topscroll*/
+a.topscroll {
+  position: relative;
+  left: 90%;
+  bottom: 100px;
+  display:flex;
+}
+

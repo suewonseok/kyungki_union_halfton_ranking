@@ -1,0 +1,498 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Required meta tags always come first -->
+<meta property="og:title" content="오늘의 1등 : Today First" />
+<meta property="og:image" content="assets/preview.jpg" />
+<meta property="og:url" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:description" content="세상은 1등만 기억한다
+근데 넌 그것도 기억못하냐?">
+
+<!-- favicons -->
+<link rel="shortcut icon" href="https://d2hmp4n7p97ldw.cloudfront.net/assets/favicons/favicon-841c731d4bf227cdbfe4fe4245d7750b2c18c37f61810aa6100de9174db89e4f.ico" />
+
+<!--fontawesome-->
+<script src="https://use.fontawesome.com/cf39ba88e4.js"></script>
+
+<!--bootstrap-->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+<!--CSS--->
+<link rel="stylesheet" type="text/css" href="main.css">
+<!--topscroll--->
+<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+
+<script>
+jQuery(document).ready(function($) {
+        $(".topscroll").click(function(event){            
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
+        });
+});
+</script>
+    <!--fullpage.js -->
+   <link src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.css">
+   <!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.min.js"></script>
+   <!-- This following line is optional. Only necessary if you use the option css3:false and you want to use other easing effects rather than "linear", "swing" or "easeInOutCubic". -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/vendors/jquery.easings.min.js"></script>
+   
+   <!-- This following line is only necessary in the case of using the option `scrollOverflow:true` -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/vendors/scrolloverflow.min.js"></script>
+   
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/jquery.fullpage.js"></script>
+   
+   <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.9.4/vendors/scrolloverflow.js"></script>
+
+   
+   <!--fullpage.js script-->
+   <script type="text/javascript">
+      $(document).ready(function() {
+         $('#fullpage').fullpage({
+            anchors: ['firstPage', 'secondPage'],
+            sectionsColor: ['#3F51B5', '#fff'],
+            scrollOverflow: true,
+            scrollOverflowReset: true,
+            scrollOverflowOptions: null,
+            normalScrollElementTouchThreshold: 20
+         });
+      });
+   </script>
+   <!--nowtime-->
+   <script type="text/javascript">
+<!--
+    setInterval("dpTime()",1000);
+    function dpTime(){
+       var now = new Date();
+        hours = now.getHours();
+        minutes = now.getMinutes();
+        seconds = now.getSeconds();
+ 
+        if (hours > 12){
+            hours -= 12;
+        ampm = "오후 ";
+        }else{
+            ampm = "오전 ";
+        }
+        if (hours < 10){
+            hours = "0" + hours;
+        }
+        if (minutes < 10){
+            minutes = "0" + minutes;
+        }
+        if (seconds < 10){
+            seconds = "0" + seconds;
+        }
+document.getElementById("dpTime").innerHTML = ampm + hours + ":" + minutes + ":" + seconds;
+    }
+//-->
+</script>
+
+
+
+
+<title>오늘의 1등 : Today First</title>
+</head>
+
+<body>
+
+<div id="fullpage">
+   <div class="section " id="section0" >
+      <div class="intro">
+      
+<br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+ <br>
+
+<h1>" 세상은 1등만 기억한다<br>
+근데 넌 그것도 기억못하냐? "</h1>
+   
+<br>
+<br>
+     <p>무한경쟁지향사이트<br>오늘의 1등</p>
+<br>
+<br>
+
+</div>
+</div>
+   
+   
+   
+   
+<div class="section " id="section1">
+<div class="intro">
+
+<!---contents--->
+<div class="container page">
+<!---nowtime-->
+<div class="nowtime">
+현재시각
+<span id="dpTime"> </span>
+의 1등들
+</div><a href = "/create">현재 새로운 1등 정보 받아오기</a> <br><br><br> <!--정보 받아오기 -->
+<br>
+<br>
+<!--main contents-->
+<div class="row">
+   <div class="col-md-4">
+      <div class="row">
+         
+         
+         
+         <article class="col-md-12">
+         <blockquote class="panel panel-default">
+         <div class="panel-body">
+
+          <% @getBycreate.each do |x|%> <!--영화 -->
+         <div class="card">
+         <img class="card-img-top" src="<%= x.movie_image%>" alt="image"> 
+         <div class="card-block">
+         <h4 class="card-title">영화 제목: <%= x.movie_title%></h4>
+         <p class="card-text">영화 예매율: <%= x.movie_rate%><br>
+영화 평점: <%= x.movie_grade%><br></p>
+         <footer class="text-right">
+         출처 : 네이버 영화
+         </footer>
+            <a href="http://movie.naver.com/movie/running/current.nhn?view=list&tab=normal&order=reserve" target="_blank"><button type="button" class="btn btn-outline-primary">더 알아보기</button></a>
+         </div>
+         </div>
+
+         </div>
+         </blockquote>
+         </article>
+         <%end%> 
+         
+
+         <% @getBycreate.each do |x|%> <!--공연-->
+         <article class="col-md-12">
+         <blockquote class="panel panel-default">
+         <div class="panel-body">
+
+         <div class="card">
+         <img class="card-img-top" src="<%= x.perform_image%>" alt="image">
+         <div class="card-block">
+         <h4 class="card-title">공연 : <%= x.perform_title%><br></h4>
+         <p class="card-text">공연 날짜: <%= x.perform_date%><br>
+공연 장소: <%= x.perform_place%></p>
+         <footer class="text-right">
+         출처 : 네이버 공연
+         </footer>
+         <a href="https://m.search.naver.com/search.naver?query=%EA%B3%B5%EC%97%B0&where=m&sm=mtp_hty" target="_blank"><button type="button" class="btn btn-outline-primary">더 알아보기</button></a>
+         </div>
+         </div>
+
+         </div>
+         </blockquote>
+         </article>
+         <%end%>
+         
+
+         <% @getBycreate.each do |x|%> <!-- 베스트도서-->
+         <article class="col-md-12">
+         <blockquote class="panel panel-default">
+         <div class="panel-body">
+
+         <div class="card">
+         <img class="card-img-top" src="<%= x.book_image%>" alt="image">
+         <div class="card-block">
+         <h4 class="card-title">베스트 도서 : <%=x.book_title%><br></h4>
+         <p class="card-text">도서 글쓴이 :<%=x.book_writer%></p>
+         <footer class="text-right">
+         출처 : 인터파크 도서
+         </footer>
+         <a href="http://mbook.interpark.com/part/shop/rank/daterank/bestsellerHourList" target="_blank"><button type="button" class="btn btn-outline-primary">더 알아보기</button></a>
+         </div>
+         </div>
+
+         </div>
+         </blockquote>
+         </article>
+         <%end%>
+         
+
+         </div>
+         </div>
+         
+         
+   <div class="col-md-4">
+         <div class="row">
+
+
+
+                  <% @getBycreate.each do |x|%> <!--구글실검 -->
+                  <article class="col-md-12">
+         <blockquote class="panel panel-default">
+         <div class="panel-body">
+
+
+         <div class="card">
+         <img class="card-img-top" src="<%= x.google_image%>" alt="image">
+         <div class="card-block">
+         <h4 class="card-title">실시간 검색어 : <%=x.google_title %></h4>
+         <p class="card-text">검색 횟수 :<%=x.google_count%></p>
+         <footer class="text-right">
+         출처 : 구글 실시간 검색어
+         </footer>
+            <a href="https://trends.google.co.kr/trends/?geo=KR" target="_blank"><button type="button" class="btn btn-outline-primary">더 알아보기</button></a>
+         </div>
+         </div>
+
+         </div>
+         </blockquote>
+         </article>
+         <%end%>
+         
+         
+         <% @getBycreate.each do |x| %> <!--멜론 차트 1위 -->
+
+         <article class="col-md-12">
+         <blockquote class="panel panel-default">
+         <div class="panel-body">
+
+         <div class="card">
+         <img  class="card-img-top" src="<%= x.melon_image %>" alt="image">
+         <div class="card-block">
+         <h4 class="card-title">곡 명:  <%= x.melon_title %></h4>
+         <p class="card-text">앨범 명:  <%= x.melon_album %> <br>
+가수 명:  <%= x.melon_artist %></p>
+         <footer class="text-right">
+         출처 : 멜론 실시간 차트
+         </footer>
+         <a href="http://www.melon.com/chart/index.htm" target="_blank"><button type="button" class="btn btn-outline-primary">더 알아보기</button></a>
+         </div>
+         </div>
+
+         </div>
+         </blockquote>
+         </article>
+         <% end %>
+         
+         <% @getBycreate.each do |x|%> <!--무신사 옷 -->
+
+         <article class="col-md-12">
+         <blockquote class="panel panel-default">
+         <div class="panel-body">
+
+         <div class="card">
+         <img class="card-img-top" src="<%= x.musinsa_img%>" alt="image">
+         <div class="card-block">
+         <h4 class="card-title">상품명: <%= x.musinsa_name%><br></h4>
+         <p class="card-text">상품가격: <%= x.musinsa_before_price%> => <%=x.musinsa_after_price%><br>
+변동순위: <%= x.musinsa_rank%><br>상품 브랜드: <%= x.musinsa_brand%></p>
+         <footer class="text-right">
+         출처 : 무신사
+         </footer>
+         <a href="http://store.musinsa.com/app/" target="_blank"><button type="button" class="btn btn-outline-primary">더 알아보기</button></a>
+         </div>
+         </div>
+
+         </div>
+         </blockquote>
+         </article>
+         <%end%>
+         
+         
+</div>
+</div>
+   <div class="col-md-4">
+            <div class="row">
+               
+   <% @getBycreate.each do |x| %> <!--속보뉴스 -->
+   
+         <article class="col-md-12">
+         <blockquote class="panel panel-default">
+         <div class="panel-body">
+
+
+         <div class="card">
+         <img class="card-img-top" src="<%= x.navernews_img %>" alt="image">
+         <div class="card-block">
+         <h4 class="card-title">뉴스 제목: <%= x.navernews_name%></h4>
+         <p class="card-text">뉴스 내용: <%= x.navernews_content%></p>
+         <footer class="text-right">
+         출처 : 네이버 뉴스
+         </footer>
+            <a href="http://news.naver.com/main/ranking/popularDay.nhn?mid=etc&sid1=111" target="_blank"><button type="button" class="btn btn-outline-primary">더 알아보기</button></a>
+         </div>
+         </div>
+
+         </div>
+         </blockquote>
+         </article>
+         <% end %>
+         
+         
+         <% @getBycreate.each do |x| %> <!--네이버날씨 -->
+
+         <article class="col-md-12">
+         <blockquote class="panel panel-default">
+         <div class="panel-body">
+
+         <div class="card">
+         <img class="card-img-top" src="/app/assets/images/noimage.jpg" alt="image">
+         <div class="card-block">
+         <h4 class="card-title">네이버 날씨</h4>
+         <p class="card-text"><%= x.naver_weather_statebase%><br>
+<%= x.naver_weather_stateone%><br>
+<%= x.naver_weather_statetwo%><br>
+<%= x.naver_weather_statethree%><br>
+<%= x.naver_weather_statefour%><br>
+<%= x.naver_weather_statefive%><br></p>
+         <footer class="text-right">
+         출처 : 케이웨더 대기환경
+         </footer>
+         <a href="http://weather.naver.com/air/airFcast.nhn" target="_blank"><button type="button" class="btn btn-outline-primary">더 알아보기</button></a>
+         </div>
+         </div>
+
+         </div>
+         </blockquote>
+         </article>
+         <% end %>
+         
+         <% @getBycreate.each do |x| %> <!--U-20축구 -->
+
+         <article class="col-md-12">
+         <blockquote class="panel panel-default">
+         <div class="panel-body">
+
+         <div class="card">
+         <img class="card-img-top" src="/app/assets/images/noimage.jpg" alt="image">
+         <div class="card-block">
+         <h4 class="card-title">U-20 월드컵</h4>
+         <p class="card-text"><%= x.twenty_day%><br>
+<%= x.twenty_odd%><br></p>
+         <footer class="text-right">
+         출처 : U-20 순위
+         </footer>
+         <a href="https://m.search.naver.com/search.naver?query=u-20&where=m&sm=mtp_hty" target="_blank"><button type="button" class="btn btn-outline-primary">더 알아보기</button></a>
+         </div>
+         </div>
+
+         </div>
+         </blockquote>
+         </article>
+         <% end %>
+
+
+   </div>
+   </div>
+</div>
+</div>
+   </div>
+                                          
+<!--bodyfooter-->
+<div class="bodyfooter">
+   Copyright. all rights reserved.
+</div>
+   
+   
+</div>
+</div>
+
+<a href="#section1" class="topscroll"><i class="fa fa-arrow-circle-up fa-5x" aria-hidden="true"></i></a>
+<a href = "/create">정보 받아오기</a> <br><br><br> <!--정보 받아오기 -->
+
+<% @getBycreate.each do |x| %> <!--멜론 차트 1위 -->
+
+곡 명:  <%= x.melon_title %> <br>
+앨범 명:  <%= x.melon_album %> <br>
+가수 명:  <%= x.melon_artist %> <br>
+이미지 : <br><img style="height:100px; width:100px;" src='<%= x.melon_image %>'> <br>
+<% end %>
+<hr>
+
+
+<% @getBycreate.each do |x|%> <!--무신사 옷 -->
+
+상품명: <%= x.musinsa_name%><br>
+상품가격: <%= x.musinsa_before_price%> => <%=x.musinsa_after_price%><br>
+변동순위: <%= x.musinsa_rank%><br>
+상품이미지: <br><img src="<%= x.musinsa_img%>"><br>
+상품 브랜드: <%= x.musinsa_brand%><br>
+
+<%end%>
+<hr>
+<% @getBycreate.each do |x| %> <!--속보뉴스 -->
+
+뉴스 사진:<br><img src ="<%= x.navernews_img %>"><br>
+뉴스 제목: <%= x.navernews_name%><br>
+뉴스 내용: <%= x.navernews_content%>
+
+<% end %>
+<hr>
+<% @getBycreate.each do |x| %> <!--네이버날씨 -->
+
+<%= x.naver_weather_statebase%><br>
+<%= x.naver_weather_stateone%><br>
+<%= x.naver_weather_statetwo%><br>
+<%= x.naver_weather_statethree%><br>
+<%= x.naver_weather_statefour%><br>
+<%= x.naver_weather_statefive%><br>
+
+
+<% end %>
+<hr>
+<% @getBycreate.each do |x| %> <!--U-20축구 -->
+
+<%= x.twenty_day%><br>
+<%= x.twenty_odd%><br>
+
+
+
+<% end %>
+
+
+<% @getBycreate.each do |x|%> <!--영화 -->
+
+영화 제목: <%= x.movie_title%><br>
+영화 예매율: <%= x.movie_rate%><br>
+영화 평점: <%= x.movie_grade%><br>
+영화 포스터: <br><img src="<%= x.movie_image%>"><br>
+
+<%end%>
+
+<% @getBycreate.each do |x|%> <!--공연-->
+
+공연 : <%= x.perform_title%><br>
+공연 날짜: <%= x.perform_date%><br>
+공연 장소: <%= x.perform_place%><br>
+공연 포스터: <br><img src="<%= x.perform_image%>"><br>
+<%end%>
+
+<% @getBycreate.each do |x|%> <!-- 베스트도서-->
+
+베스트 도서 : <%=x.book_title%><br>
+도서 글쓴이 :<%=x.book_writer%><br>
+도서 이미지: <br><img src="<%= x.book_image%>"><br>
+
+<%end%>
+
+<% @getBycreate.each do |x|%> <!--구글실검 -->
+
+실시간 검색어 : <%=x.google_title %><br>
+검색 횟수 :<%=x.google_count%> <br>
+실시간 검색어 이미지: <br><img src="<%= x.google_image%>"><br>
+
+<%end%>
+</body>
+</html>
+
+
+
